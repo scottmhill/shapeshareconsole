@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeSharingConsolePush", "ShapeSharingConsolePush\ShapeSharingConsolePush.csproj", "{317AE9AC-FECC-4180-9F2E-A7FE8AC5E892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeSharingConsoleSubscribe", "ShapeSharingConsoleSubscribe\ShapeSharingConsoleSubscribe.csproj", "{07AE517B-E350-4B92-AA38-3DC189D2C899}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{317AE9AC-FECC-4180-9F2E-A7FE8AC5E892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317AE9AC-FECC-4180-9F2E-A7FE8AC5E892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317AE9AC-FECC-4180-9F2E-A7FE8AC5E892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317AE9AC-FECC-4180-9F2E-A7FE8AC5E892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07AE517B-E350-4B92-AA38-3DC189D2C899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AE517B-E350-4B92-AA38-3DC189D2C899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AE517B-E350-4B92-AA38-3DC189D2C899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AE517B-E350-4B92-AA38-3DC189D2C899}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
