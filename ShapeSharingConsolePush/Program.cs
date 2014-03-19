@@ -18,7 +18,7 @@ namespace ShapeSharingConsolePush
 
             var hubConnection = new HubConnection(url);
 
-            IHubProxy hub = hubConnection.CreateHubProxy(hubName);
+            IHubProxy hubProxy = hubConnection.CreateHubProxy(hubName);
 
             hubConnection.Start().ContinueWith(task1 =>
             {
@@ -32,7 +32,7 @@ namespace ShapeSharingConsolePush
 
                     if (x > 100 || x < 1) direction = - direction;
 
-                    hub.Invoke("ShareCoordinates", x, 50.0).ContinueWith(task2 =>
+                    hubProxy.Invoke("ShareCoordinates", x, 50.0).ContinueWith(task2 =>
                         {
                             if (task2.IsFaulted)
                             {
