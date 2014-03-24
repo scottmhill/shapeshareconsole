@@ -13,8 +13,8 @@ namespace ShapeSharingConsolePush
         {
             string url = "http://localhost:58607";
 
-            //string hubName = "ShareHub";
-            string hubName = "Test";
+            string hubName = "ShareHub";
+            //string hubName = "Test";
 
             var hubConnection = new HubConnection(url);
 
